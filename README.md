@@ -60,9 +60,9 @@ To test the robustness of the model, there are several testing data with differe
 
 The text file records class_name/ class_index/ xyxy coordinates/ confidence score. 
 
-`bicycle:1 111 130 561 419 0.42154
-car:2 466 74 689 172 0.521576
-truck:7 467 77 690 174 0.609033
+`bicycle:1 111 130 561 419 0.42154<br>
+car:2 466 74 689 172 0.521576<br>
+truck:7 467 77 690 174 0.609033<br>
 dog:16 131 218 313 550 0.903322`
 
 
