@@ -6,7 +6,7 @@ This repository provides a fast inference API to demo object detection task.
 
 ## ONNX Model
 
-The [./yolov5.onnx](./yolov5.onnx) is exported by official [yolov5s.pt](https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt) using [export.py](https://github.com/ultralytics/yolov5/blob/v6.0/export.py).
+The [./yolov5_onnx.onnx](./yolov5_onnx.onnx) is exported by official [yolov5s.pt](https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt) using [export.py](https://github.com/ultralytics/yolov5/blob/v6.0/export.py).
 
 The model input size is (3,640,640) with NCHW + RGB format.  
 
