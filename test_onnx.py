@@ -543,8 +543,6 @@ def main(**args):
 
         inference_res = yolov5_inference(args, model, preprocessed, ori_file_name_list, inference_input_tensor_path, inference_opt_tensor_path)
         
-        #output_con = yolov5_concat(args, inference_res, ori_file_name_list, inference_opt_tensor_path)
-        
         yolov5_postprocess(args, inference_res[0], preprocessed, ori_image_list, ori_file_name_list, image_results_path, txt_results_path)
 
 
